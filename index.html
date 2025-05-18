@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zanspiw Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="cart.html">Keranjang</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Selamat Datang di Zanspiw Store</h1>
+        <section class="products">
+            <div class="product">
+                <img src="images/product-images/product1.jpg" alt="Produk 1">
+                <h3>Nama Produk 1</h3>
+                <p>Rp 100.000</p>
+                <button onclick="addToCart('Produk 1', 100000)">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="images/product-images/product2.jpg" alt="Produk 2">
+                <h3>Nama Produk 2</h3>
+                <p>Rp 200.000</p>
+                <button onclick="addToCart('Produk 2', 200000)">Tambah ke Keranjang</button>
+            </div>
+            <!-- Tambahkan lebih banyak produk sesuai kebutuhan -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Zanspiw Store. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
